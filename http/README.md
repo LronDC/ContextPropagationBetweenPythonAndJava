@@ -1,5 +1,6 @@
 # How to use
 - Setup Java server:
+
     Under the `javasnippet` directory and execute:
     `mvn compile && mvn clean install`
     `mvn exec:java -Dexec.mainClass="com.demo.App" -e`
@@ -34,6 +35,7 @@
     Server started at: Mon Apr 10 18:10:08 CST 2023
     ```
 - Setup Python server:
+
     Under the `pythonsnippet` directory and execute:
     `python server.py`
     output:
@@ -45,7 +47,18 @@
     Press CTRL+C to quit
     ```
 - Make call to Python server:
+
 `curl http://127.0.0.1:5000/python`
 - Checkout Jaeger UI:
+
     example:
+    
+    <img width="756" alt="截屏2023-04-10 18 25 27" src="https://user-images.githubusercontent.com/59912384/230885156-11a7289d-4054-4da5-be21-ab33bef4f141.png">
+    
+    <img width="1509" alt="截屏2023-04-10 18 25 49" src="https://user-images.githubusercontent.com/59912384/230885280-35b31829-e048-48fa-acd7-88a697624ac3.png">
+
+    <img width="1508" alt="截屏2023-04-10 18 26 24" src="https://user-images.githubusercontent.com/59912384/230885304-0de11bf1-e537-4182-9151-fb715790588a.png">
+
+
+   
     
