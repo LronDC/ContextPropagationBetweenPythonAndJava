@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.demo.AppTest" time="0.047" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="socksProxyHost" value="127.0.0.1"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="http.proxyHost" value="127.0.0.1"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/ron/ContextPropagationBetweenPythonAndJava/http/javasnippet/target/test-classes:/Users/ron/ContextPropagationBetweenPythonAndJava/http/javasnippet/target/classes:/Users/ron/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/ron/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-api/1.24.0/opentelemetry-api-1.24.0.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.24.0/opentelemetry-sdk-1.24.0.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.24.0/opentelemetry-sdk-common-1.24.0.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.24.0/opentelemetry-sdk-trace-1.24.0.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.24.0/opentelemetry-sdk-metrics-1.24.0.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.24.0-alpha/opentelemetry-sdk-logs-1.24.0-alpha.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.24.0-alpha/opentelemetry-api-logs-1.24.0-alpha.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.24.0-alpha/opentelemetry-api-events-1.24.0-alpha.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-exporter-otlp/1.24.0/opentelemetry-exporter-otlp-1.24.0.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-exporter-otlp-common/1.24.0/opentelemetry-exporter-otlp-common-1.24.0.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-exporter-common/1.24.0/opentelemetry-exporter-common-1.24.0.jar:/Users/ron/.m2/repository/com/squareup/okhttp3/okhttp/4.10.0/okhttp-4.10.0.jar:/Users/ron/.m2/repository/com/squareup/okio/okio-jvm/3.0.0/okio-jvm-3.0.0.jar:/Users/ron/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.5.31/kotlin-stdlib-jdk8-1.5.31.jar:/Users/ron/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.5.31/kotlin-stdlib-jdk7-1.5.31.jar:/Users/ron/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.31/kotlin-stdlib-common-1.5.31.jar:/Users/ron/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.6.20/kotlin-stdlib-1.6.20.jar:/Users/ron/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.24.0/opentelemetry-sdk-extension-autoconfigure-spi-1.24.0.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.24.0-alpha/opentelemetry-semconv-1.24.0-alpha.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-context/1.24.0/opentelemetry-context-1.24.0.jar:"/>
+    <property name="https.proxyPort" value="7890"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/ron/ContextPropagationBetweenPythonAndJava/http/javasnippet/target/surefire/surefirebooter15710345850518760586.jar /Users/ron/ContextPropagationBetweenPythonAndJava/http/javasnippet/target/surefire 2023-04-07T17-17-22_608-jvmRun1 surefire17079287213084795469tmp surefire_06328328026485038840tmp"/>
+    <property name="http.nonProxyHosts" value="192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|127.0.0.1|localhost|*.localhost|local|*.local|timestamp.apple.com|*.timestamp.apple.com"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/ron/ContextPropagationBetweenPythonAndJava/http/javasnippet/target/test-classes:/Users/ron/ContextPropagationBetweenPythonAndJava/http/javasnippet/target/classes:/Users/ron/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/ron/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-api/1.24.0/opentelemetry-api-1.24.0.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.24.0/opentelemetry-sdk-1.24.0.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.24.0/opentelemetry-sdk-common-1.24.0.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.24.0/opentelemetry-sdk-trace-1.24.0.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.24.0/opentelemetry-sdk-metrics-1.24.0.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.24.0-alpha/opentelemetry-sdk-logs-1.24.0-alpha.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.24.0-alpha/opentelemetry-api-logs-1.24.0-alpha.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.24.0-alpha/opentelemetry-api-events-1.24.0-alpha.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-exporter-otlp/1.24.0/opentelemetry-exporter-otlp-1.24.0.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-exporter-otlp-common/1.24.0/opentelemetry-exporter-otlp-common-1.24.0.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-exporter-common/1.24.0/opentelemetry-exporter-common-1.24.0.jar:/Users/ron/.m2/repository/com/squareup/okhttp3/okhttp/4.10.0/okhttp-4.10.0.jar:/Users/ron/.m2/repository/com/squareup/okio/okio-jvm/3.0.0/okio-jvm-3.0.0.jar:/Users/ron/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.5.31/kotlin-stdlib-jdk8-1.5.31.jar:/Users/ron/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.5.31/kotlin-stdlib-jdk7-1.5.31.jar:/Users/ron/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.31/kotlin-stdlib-common-1.5.31.jar:/Users/ron/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.6.20/kotlin-stdlib-1.6.20.jar:/Users/ron/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.24.0/opentelemetry-sdk-extension-autoconfigure-spi-1.24.0.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.24.0-alpha/opentelemetry-semconv-1.24.0-alpha.jar:/Users/ron/.m2/repository/io/opentelemetry/opentelemetry-context/1.24.0/opentelemetry-context-1.24.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/ron"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-04-17"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="https.proxyHost" value="127.0.0.1"/>
+    <property name="basedir" value="/Users/ron/ContextPropagationBetweenPythonAndJava/http/javasnippet"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/ron/ContextPropagationBetweenPythonAndJava/http/javasnippet/target/surefire/surefirebooter15710345850518760586.jar"/>
+    <property name="user.script" value="Hans"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|127.0.0.1|localhost|*.localhost|local|*.local|timestamp.apple.com|*.timestamp.apple.com"/>
+    <property name="java.runtime.version" value="10.0.1+10"/>
+    <property name="user.name" value="ron"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="localRepository" value="/Users/ron/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/2p/d694rbq53pnfjs0scjk9j53w0000gn/T/"/>
+    <property name="java.version" value="10.0.1"/>
+    <property name="user.dir" value="/Users/ron/ContextPropagationBetweenPythonAndJava/http/javasnippet"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="socksProxyPort" value="7890"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/ron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="10.0.1+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="54.0"/>
+    <property name="socksNonProxyHosts" value="192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|127.0.0.1|localhost|*.localhost|local|*.local|timestamp.apple.com|*.timestamp.apple.com"/>
+    <property name="http.proxyPort" value="7890"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.demo.AppTest" time="0.005"/>
+</testsuite>

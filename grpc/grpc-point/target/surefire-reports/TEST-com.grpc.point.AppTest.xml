@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.grpc.point.AppTest" time="0.022" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="https.proxyHost" value="127.0.0.1"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="10.0.1+10"/>
+    <property name="http.proxyPort" value="7890"/>
+    <property name="user.name" value="ron"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="socksProxyHost" value="127.0.0.1"/>
+    <property name="user.language" value="zh"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib"/>
+    <property name="classworlds.conf" value="/usr/local/apache-maven-3.6.1/bin/m2.conf"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.version" value="10.0.1"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="http.nonProxyHosts" value="192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|127.0.0.1|localhost|*.localhost|local|*.local|timestamp.apple.com|*.timestamp.apple.com"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/usr/local/apache-maven-3.6.1/conf"/>
+    <property name="java.class.version" value="54.0"/>
+    <property name="user.country" value="CN"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.16"/>
+    <property name="https.proxyPort" value="7890"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="10.0.1+10"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="os.detected.version" value="10.16"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="socksNonProxyHosts" value="192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|127.0.0.1|localhost|*.localhost|local|*.local|timestamp.apple.com|*.timestamp.apple.com"/>
+    <property name="ftp.nonProxyHosts" value="192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|127.0.0.1|localhost|*.localhost|local|*.local|timestamp.apple.com|*.timestamp.apple.com"/>
+    <property name="user.script" value="Hans"/>
+    <property name="user.home" value="/Users/ron"/>
+    <property name="socksProxyPort" value="7890"/>
+    <property name="java.version.date" value="2018-04-17"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="library.jansi.path" value="/usr/local/apache-maven-3.6.1/lib/jansi-native"/>
+    <property name="java.library.path" value="/Users/ron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.home" value="/usr/local/apache-maven-3.6.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.class.path" value="/usr/local/apache-maven-3.6.1/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="os.detected.arch" value="x86_64"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="os.detected.classifier" value="osx-x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/2p/d694rbq53pnfjs0scjk9j53w0000gn/T/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/ron/ContextPropagationBetweenPythonAndJava/grpc-point"/>
+    <property name="http.proxyHost" value="127.0.0.1"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="user.dir" value="/Users/ron/ContextPropagationBetweenPythonAndJava/grpc-point"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="os.detected.version.major" value="10"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="os.detected.name" value="osx"/>
+    <property name="os.detected.version.minor" value="16"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="java.vendor.version" value="18.3"/>
+  </properties>
+  <testcase classname="com.grpc.point.AppTest" name="shouldAnswerWithTrue" time="0.022"/>
+</testsuite>
