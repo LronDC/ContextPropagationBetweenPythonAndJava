@@ -2,7 +2,7 @@
 > This project is a learning example for context propagation between Python and Java.
 
 ## introduction
-Project is divided into two parts: **gRPC** and **HTTP**. Each part contains two subdirectories: **java** and **python**. The **java** directory contains the Java code, and the **python** directory contains the Python code. The **grpc** directory also contains the .proto file.
+Project is divided into two parts: **gRPC** and **HTTP**. Each part contains two subdirectories: **java** and **python** contains the Java/Python code respectively. The **grpc** directory also contains the .proto file. Further infomation please look into [grpc's](https://github.com/LronDC/ContextPropagationBetweenPythonAndJava/tree/main/grpc) or [http's](https://github.com/LronDC/ContextPropagationBetweenPythonAndJava/tree/main/http) README.md file.
 ## code structure
 ```shell
 .
