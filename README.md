@@ -11,7 +11,7 @@ Project is divided into two parts: **gRPC** and **HTTP**. Each part contains two
 └── http
 ```
 - **grpc**: Both Python and Java use **gRPC** to implement OTel context propagation. It's [WIP] and any contribution or help is welcome.
-- **http**: Both Python and Java use **HTTP** to implement OTel context propagation. [how to use]
+- **http**: Both Python and Java use **HTTP** to implement OTel context propagation. [how to use](https://github.com/LronDC/ContextPropagationBetweenPythonAndJava/blob/main/http/README.md)
 ### grpc
 *TBD*
 ### http
