@@ -1,0 +1,17 @@
+# java
+target/
+*.class
+.classpath
+.project
+# ide
+.idea/
+.settings/
+.vscode/
+.idea
+.settings
+# compression file
+*.jar
+# os
+.DS_Store
+.DS_Store?
+._*
