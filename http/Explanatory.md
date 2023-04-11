@@ -201,18 +201,20 @@ Don't forget to close the span.
 
 When you make the call to `http://127.0.0.1:5000/python`, you will see the **one** trace in the Jaeger UI.
 
-
+<img width="1511" alt="截屏2023-04-11 14 20 50" src="https://user-images.githubusercontent.com/59912384/231077904-6629caf0-4a99-4afb-af43-45557ecea589.png">
 
 This means the trace context created in Python service is propagated to Java service, and be propagated back to Python service. There what should have been two traces became one. Whether `python-service` or `java-service` trace is the same one.
 
 Take a closer look at the details.
 
-
+<img width="1510" alt="截屏2023-04-11 14 30 55" src="https://user-images.githubusercontent.com/59912384/231077958-3a5699b0-f1ab-46eb-b8f5-4d8360285c42.png">
 
 Java service catch the baggage filled in Python service: `python-baggage-key=python-baggage-value`.
 
 A child span was created with `java-incomming-span` as parent, and the baggage was added as attribute.
 
-
+<img width="1512" alt="截屏2023-04-11 14 35 05" src="https://user-images.githubusercontent.com/59912384/231078009-94bfd7e2-8d02-441c-bf82-417ef960e6ff.png">
 
 Finally, context and baggage are propagated to Python service, a span was created in Python service and it had same span level with the span `java-incomming-span`(the parent).
+
+<img width="1511" alt="截屏2023-04-11 14 38 25" src="https://user-images.githubusercontent.com/59912384/231078047-6880487b-030a-4116-a4ef-1c7cc95bf9bb.png">
