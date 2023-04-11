@@ -2,7 +2,7 @@
 
 The **http** section setup two http services, one in Python and one in Java, to simulate the context propagation between e.g. micorservices.
 
-It takes python service as entry point, and then calls java service, propagates the trace context as well as some baggage data, then java service calls back at python service on another endpoint, continue to propagate the trace context and baggage data downward. At last, there will be only one trace thats starts from python service which contains four spans, two of them are from python service, and the other two are from java service.
+It takes python service as entry point, and then calls java service, propagates the trace context as well as some baggage data, then java service calls back at python service on another endpoint, continue to propagate the trace context and baggage data downward. At last, there will be only one trace that starts from python service which contains four spans, two of them are from python service, and the other two are from java service.
 
 It uses Jaeger as the trace collector.
 
