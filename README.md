@@ -2,7 +2,7 @@
 > This project is a learning example for context propagation between Python and Java.
 
 ## introduction
-Project is divided into two parts: **gRPC** and **HTTP**. Each part contains two subdirectories: **java** and **python** contains the Java/Python code respectively. The **grpc** directory also contains the .proto file. Further infomation please look into [grpc's](https://github.com/LronDC/ContextPropagationBetweenPythonAndJava/tree/main/grpc) or [http's](https://github.com/LronDC/ContextPropagationBetweenPythonAndJava/tree/main/http) README.md file.
+This Project demonstrates the [Context Propagation](https://opentelemetry.io/docs/concepts/signals/traces/#context-propagation) capability of OpenTelemetry (OTel) between Python and Java service. Project is divided into two parts: **gRPC** and **HTTP** -- designed to show the differ between two protocols. Each part contains subdirectories which contain the Java/Python code respectively. The **grpc** directory also contains the .proto file. Further infomation please look into [grpc's](https://github.com/LronDC/ContextPropagationBetweenPythonAndJava/tree/main/grpc) or [http's](https://github.com/LronDC/ContextPropagationBetweenPythonAndJava/tree/main/http) README.md file and the Explanatory.md.
 ## code structure
 ```shell
 .

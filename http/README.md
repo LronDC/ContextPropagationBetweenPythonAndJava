@@ -1,14 +1,34 @@
-# Explanation
-
-TBD
-
 # How to use
+
+- Setup Jaeger:
+
+    Remember to set the environment variable `COLLECTOR_OTLP_ENABLED=true` to enable OTLP receiver.
+    
+    ```shell
+    docker run -d --name jaeger \
+  -e COLLECTOR_OTLP_ENABLED=true \
+  -p 6831:6831/udp \
+  -p 6832:6832/udp \
+  -p 5778:5778 \
+  -p 16686:16686 \
+  -p 4317:4317 \
+  -p 4318:4318 \
+  -p 14250:14250 \
+  -p 14268:14268 \
+  -p 14269:14269 \
+  -p 9411:9411 \
+  jaegertracing/all-in-one:latest
+  ```
+
 - Setup Java server:
 
     Under the `javasnippet` directory and execute:
+
     `mvn compile && mvn clean install`
     `mvn exec:java -Dexec.mainClass="com.demo.App" -e`
+
     output:
+
     ```console
     [INFO] Scanning for projects...
     [INFO]
@@ -38,11 +58,16 @@ TBD
     [INFO] --- exec-maven-plugin:3.1.0:java (default-cli) @ javasnippet ---
     Server started at: Mon Apr 10 18:10:08 CST 2023
     ```
+
 - Setup Python server:
 
-    Under the `pythonsnippet` directory and execute:
+    It is recommended to use a Virtual Environment, Under the `pythonsnippet` directory and execute:
+
+    `pip install -r requirements.txt`
     `python server.py`
+
     output:
+
     ```console
     * Serving Flask app 'server'
     * Debug mode: off
@@ -50,9 +75,11 @@ TBD
     * Running on http://127.0.0.1:5000
     Press CTRL+C to quit
     ```
+
 - Make call to Python server:
 
-`curl http://127.0.0.1:5000/python`
+    `curl http://127.0.0.1:5000/python`
+
 - Checkout Jaeger UI:
 
     example:
