@@ -26,7 +26,11 @@ This Project demonstrates the [Context Propagation](https://opentelemetry.io/doc
 ## Reference documents
 
 https://github.com/laziobird/opentelemetry-jaeger/blob/main/docs/%E9%93%BE%E8%B7%AF%E6%95%B0%E6%8D%AE%E5%A6%82%E4%BD%95%E4%BC%A0%E6%92%AD%20.md
+
 https://opentelemetry-python.readthedocs.io/
+
 https://opentelemetry-python-contrib.readthedocs.io/
+
 https://opentelemetry.io/docs/instrumentation/java/manual
+
 https://opentelemetry.io/docs/instrumentation/python/manual/
