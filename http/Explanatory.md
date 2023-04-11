@@ -6,6 +6,8 @@ It takes python service as entry point, and then calls java service, propagates 
 
 It uses Jaeger as the trace collector.
 
+![logic](https://user-images.githubusercontent.com/59912384/231078152-914ec322-7be0-4a64-9e9b-9fe82b683ed0.png)
+
 # Python
 
 Let's take a look at Python code.
