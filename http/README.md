@@ -1,4 +1,6 @@
 # How to use
+## Manually setup
+More straightforward and flexible way to debug and add various environment variables to see how it works. But you may need to deal with the dependency libs and tools issues. E.g. `maven`, `python environment`
 
 - Setup Jaeger:
 
@@ -90,6 +92,9 @@
 
     <img width="1508" alt="截屏2023-04-10 18 26 24" src="https://user-images.githubusercontent.com/59912384/230885304-0de11bf1-e537-4182-9151-fb715790588a.png">
 
-
+## Run with docker
+Easy way to setup project and see its effect.
+*TBD*
+got some issues with the docker image, will update later.
    
     
