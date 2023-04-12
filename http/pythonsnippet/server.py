@@ -16,7 +16,7 @@ resource = Resource.create({"service.name": "python-service"})
 
 # Create a TracerProvider with the OTLPSpanExporter and the Resource object
 trace.set_tracer_provider(TracerProvider(resource=resource))
-otlp_exporter = OTLPSpanExporter(endpoint="http://localhost:4317", insecure=True)
+otlp_exporter = OTLPSpanExporter(endpoint="http://jaeger:4317", insecure=True)
 span_processor = BatchSpanProcessor(otlp_exporter)
 trace.get_tracer_provider().add_span_processor(span_processor)
 
@@ -50,7 +50,7 @@ def client():
         # MUST add the values to the header
         header = {"traceparent": carrier["traceparent"], "baggage": carrier["baggage"]}
         # Make a GET request to the Java server
-        java_response = requests.get('http://localhost:8000/java', headers=header)
+        java_response = requests.get('http://javasnippet:8000/java', headers=header)
         # get the response content from the Java server
         java_response_content = java_response.content
     # return the response content as a JSON object
@@ -74,4 +74,4 @@ def server():
     
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host="0.0.0.0", port=8001)
