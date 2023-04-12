@@ -1,3 +1,4 @@
+Detailed explanation and project describtion in [Explanatory.md](https://github.com/LronDC/ContextPropagationBetweenPythonAndJava/blob/main/http/Explanatory.md)
 # How to use
 ## Manually setup
 More straightforward and flexible way to debug and add various environment variables to see how it works. But you may need to deal with the dependency libs and tools issues. E.g. `maven`, `python environment`
