@@ -41,7 +41,7 @@ public class App {
             .merge(Resource.create(Attributes.of(ResourceAttributes.SERVICE_NAME, "java-service")));
       
         // Create a span exporter
-        OtlpGrpcSpanExporter spanExporter = OtlpGrpcSpanExporter.builder().setEndpoint("http://localhost:4317").build();
+        OtlpGrpcSpanExporter spanExporter = OtlpGrpcSpanExporter.builder().setEndpoint("http://jaeger:4317").build();
 
         // Create a tracer provider
         SdkTracerProvider sdkTracerProvider = SdkTracerProvider.builder()
@@ -115,7 +115,7 @@ public class App {
                         // Add new Java baggage to the current Context
                         Baggage.current().toBuilder().put("java-baggage-key", "java-baggage-value").build().makeCurrent();
                         // Create a new HttpURLConnection to send a request to the Python service
-                        URL url = new URL("http://localhost:5000/python/server");
+                        URL url = new URL("http://pythonsnippet:8001/python/server");
                         HttpURLConnection transportLayer = (HttpURLConnection) url.openConnection();
                         // Inject the request with the *current*  Context, which contains our current Span.
                         openTelemetry.getPropagators().getTextMapPropagator().inject(Context.current(), transportLayer, setter);
