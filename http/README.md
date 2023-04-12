@@ -94,7 +94,9 @@ More straightforward and flexible way to debug and add various environment varia
 
 ## Run with docker
 Easy way to setup project and see its effect.
-*TBD*
-got some issues with the docker image, will update later.
+
+Just run `docker-compose up -d`, it will start up three containers.
+
+Then you can make the call to python and see the effect on Jaeger UI.
    
     
